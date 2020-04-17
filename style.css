@@ -1,0 +1,226 @@
+body {
+  position: absolute;
+  display: block;
+  width: 100%;
+  margin:auto;
+  font-family: 'Noto Sans SC', sans-serif;
+  background-image: url(./Assets/maxresdefault.jpg);
+  background-size:cover;
+  background-repeat: repeat;
+} 
+  
+  header{
+    border-bottom: 4px solid crimson;
+  }
+  
+  .text-center {
+    color: #f4f9ff;
+  }
+  
+  .card-header{
+    padding-left: 2px;
+  }
+  .card{
+    margin: 10px;
+  }
+
+
+  .form-control{
+  width: calc(100% - 45px);
+  margin-right: 2px;
+  }
+  
+  title {
+    color: #f4f9ff;
+  }
+  
+  .row {
+    padding-left: 10px;
+  }
+  
+  span {
+    display: inline-flex;
+  }
+  
+  .container {
+    background-color: #fff;
+    display: block;
+    /* margin: 0 auto; */
+    border-radius: 10px;
+    padding-bottom: 50px;
+    width: 95%;
+    background-image: url(./Assets/beach.jpeg);
+    background-size:cover;
+    background-repeat: repeat;
+    /* color: rgb(104, 103, 103); */
+  }
+  
+  .forecast-card{ /* one card for each day */
+    background-color: royalblue;
+    color: white;
+    height: 180px;
+    width: auto;
+    font-size: 12px;
+    margin: 2px;
+
+  }
+  .date{
+    position: relative;
+    text-align: center;
+    top: 10px;
+    font-weight: 400;
+    font-size: 16px;
+  }
+  .humidity{
+    position: absolute;
+    bottom: 10px;
+    left:10px;
+    font-weight: 200;
+  }
+  .temp{
+    position:absolute;
+    bottom: 35px;
+    left: 10px;
+    font-weight: 200;
+  }
+  #cityAndDate{
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom:15px;
+  }
+
+  .app-title {
+    height: 50px;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .app-title p {
+    text-align: center;
+    padding: 15px;
+    margin: 0 auto;
+    font-size: 1.2em;
+    color: #293251;
+  }
+  
+  .notification {
+    background-color: #f8d7da;
+    display: none;
+  }
+  
+  .notification p {
+    color: #721c24;
+    font-size: 1.2em;
+    margin: 0;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  .weather-container {
+    height: 160px;
+    /* background-color: #7d7db6; */
+    margin: 20px 0px 20px 0px;
+    padding: 25px;
+    /* background-image: url(./Assets/rainbowclouds.jpg); */
+    background-color: rgba(255,255,255,0.4);
+    border-radius: 5px;
+  }
+  
+  .weather-box{
+    width: 100%;
+  }
+  
+  .weather-icon {
+    height: 128px;
+  }
+  
+  .weather-icon img {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .temperature-value {
+    height: 60px;
+  }
+  
+  #run-search{
+    background-color: skyblue;
+    color: white;
+  }
+  
+  .temperature-value p {
+    padding: 0;
+    margin: 0;
+    color: #293251;
+    font-size: 4em;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .forecast-container{
+    padding-right: 25px;
+    background-color: rgba(255,255,255,0.4);
+    border-radius: 5px;
+  }
+  
+  .card-body{
+    padding: 2px;
+  }
+  
+  #search-card {
+    padding-top: 30px;
+  }
+  
+.five-day{
+  margin-top:30px;
+}
+.wicon-container{
+  position: relative;
+  margin-top: 30px;
+}
+.wicon{
+  width: 40px;
+  height: 40px;
+}
+
+.temperature-value span {
+  color: #293251;
+  font-size: 0.5em;
+}
+
+.temperature-description p {
+  padding: 8px;
+  margin: 0;
+  color: #293251;
+  text-align: center;
+  font-size: 1.2em;
+}
+  
+  .location p {
+    margin: 0;
+    padding: 0;
+    color: #293251;
+    text-align: center;
+    font-size: 0.8em;
+  }
+  
+  footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color:white;
+    background-color: #293251;
+    padding: 10px;
+    border-top: 4px solid crimson;
+    text-align: center;
+    height: 50px;
+  }
+
+.search-data{
+  position: relative;
+  background-color: blanchedalmond;
+  margin-top: 30px;
+}
+#search-list li {
+  list-style: none;
+}
